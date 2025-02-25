@@ -12,6 +12,13 @@ body {
 #menu {
     background: #c5c5b2;
     padding: 18px;
+    text-align: center;
+}
+
+#menu .active {
+    color: #e8e8d9;
+    background-color: #4b566a;
+    border-radius: 10px;
 }
 
 #conteudo {
@@ -44,3 +51,16 @@ h1 {
 .img-campanha {
     border: 10px solid #c3c3ae;
 }
+@media (max-width: 768px) {
+    #principal {
+        width: 100%;
+    }
+    }
+    .img-campanha {
+        width: 100%;
+        height: auto;
+    
+        #menu {
+            padding: 10px; /* Reduz o padding para telas menores */
+        }
+    }
